@@ -26,17 +26,19 @@ setup(
     author_email='yang@yangyubo.com',
     url='http://github.com/django-notifications/django-notifications',
     install_requires=[
-        'django>=1.7',
+        'django>=2.2.0',
         'django-model-utils>=2.0.3',
-        'jsonfield>=1.0.3',
+        'jsonfield2>=3.1.0',
         'pytz',
-        'swapper'
+        'swapper',
+        'six'
     ],
     test_requires=[
-        'django>=1.7',
+        'django>=2.2.0',
         'django-model-utils>=2.0.3',
-        'jsonfield>=1.0.3',
-        'pytz'
+        'jsonfield2>=3.1.0',
+        'pytz',
+        'six'
     ],
     packages=[
         'notifications',
