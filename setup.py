@@ -57,18 +57,15 @@ setup(
         'License :: OSI Approved :: BSD License',
         'Operating System :: OS Independent',
         'Framework :: Django',
-        'Framework :: Django :: 1.10',
-        'Framework :: Django :: 1.9',
-        'Framework :: Django :: 1.8',
-        'Framework :: Django :: 1.7',
+        'Framework :: Django :: 2.2.0',
+        'Framework :: Django :: 3.0.0',
         # Specify the Python versions you support here. In particular, ensure
         # that you indicate whether you support Python 2, Python 3 or both.
         'Programming Language :: Python',
-        'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.3',
-        'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
         'Topic :: Utilities'
     ],
     keywords='django notifications github action event stream',
